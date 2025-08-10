@@ -1,0 +1,38 @@
+{
+  "name": "localex",
+  "version": "0.0.1",
+  "author": "AbdullahCXD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdullahcxd/localex.git"
+  },
+  "main": "dist/index.js",
+  "typings": "typings/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/abdullahcxd/localex/issues"
+  },
+  "description": "Locale management system for different languages by filesystem.",
+  "homepage": "https://github.com/abdullahcxd/localex#readme",
+  "keywords": [
+    "locale",
+    "system",
+    "languages"
+  ],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write src/**/*",
+    "build": "bun run format && tsc"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "chalk": "^5.5.0",
+    "yaml": "^2.8.1"
+  }
+}
