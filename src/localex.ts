@@ -74,7 +74,7 @@ export class LocaleX {
     this.localeExtension = options.ext;
     this.logger = new Logging(options.logging?.format, {
       debug: options.logging?.debug,
-      disableLogging: options.logging?.disableLogging,
+      disableLogging: options.logging?.disableLogging
     });
 
     // Validate directory exists
@@ -338,8 +338,8 @@ export class LocaleX {
    * @returns Translated text or fallback
    * @deprecated Use translate() with TranslationOptions instead
    */
-  translateSimple(localeId: string, key: string, fallback?: string): string {
-    return this.translate(localeId, key, { fallback });
+  translateSimple(localeId: string, key: string, fallback?: string, params?: Record<string, string>): string {
+    return this.translate(localeId, key, { fallback, params });
   }
 
   /**
