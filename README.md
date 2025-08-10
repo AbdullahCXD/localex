@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/npm/v/localex?style=flat-square&color=667eea" alt="npm version">
     <img src="https://img.shields.io/npm/dm/localex?style=flat-square&color=764ba2" alt="downloads">
     <img src="https://img.shields.io/badge/TypeScript-Ready-blue?style=flat-square&color=3178c6" alt="TypeScript">
-    <img src="https://img.shields.io/github/license/username/localex?style=flat-square&color=green" alt="license">
+    <img src="https://img.shields.io/github/license/abdullahcxd/localex?style=flat-square&color=green" alt="license">
   </div>
 </div>
 
