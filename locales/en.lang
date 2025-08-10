@@ -3,5 +3,4 @@ id: "en"
 
 translations:
     greetings:
-        hello:
-            world: "Hello, World!"
+        hello: "Hello, {{name}}!"

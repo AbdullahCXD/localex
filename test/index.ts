@@ -10,4 +10,8 @@ const localex = LocaleX.createLocaleX({
 
 localex.loadLocales();
 
-console.log(localex.translate("en", "greetings.hello.world"));
+console.log(localex.translate("en", "greetings.hello", {
+  params: {
+    name: "AbdullahCXD"
+  }
+}));
